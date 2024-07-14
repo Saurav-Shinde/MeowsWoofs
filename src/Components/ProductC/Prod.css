@@ -1,0 +1,42 @@
+.pmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.product-container{
+    width: 80%;
+    height:65vh;
+    border-style: solid;
+    border-color: #F7418F;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.paybtn{
+    width: 30%;
+    height: 5vh;
+    background-color: #FFF3C7;
+    border-radius: 35px;
+    border-width: 4px;
+    border-color: #F7418F;
+    border-style: solid;
+    color: #F7418F  ;
+}
+.prdimg{
+    width: 40%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+}
+.prddtl{
+    width: 40%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

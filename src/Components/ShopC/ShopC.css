@@ -1,0 +1,142 @@
+.Scontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/dogs-images/plain.jpg");
+    background-position: center;
+    background-size: cover;
+    animation-name: bottomup;
+    animation-duration: 2s;
+}
+@keyframes bottomup{
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+.shero{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/035/778/315/non_2x/ai-generated-dogs-run-in-grass-and-cats-run-on-the-front-yard-free-photo.jpg');
+    background-position-y:-100px;
+    background-size: cover;
+    width: 90%;
+    height: 370px;
+    border-radius: 50px;
+    margin-top: 20px;
+    visibility: hidden;
+    animation: sheroanimation 2s forwards;
+    animation-delay: 2s;
+    animation-duration:2s ;
+}
+@keyframes sheroanimation{
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    color: #FFF3C7;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+  }
+  
+  .product-card img {
+    width: 200px; 
+    height: auto; 
+  }
+  
+  
+  .product-details {
+    padding: 10px;
+  }
+
+  .buybtn{
+    width: 25%;
+    height: 40px;
+    background-color: #FFF3C7;
+    border-radius: 35px;
+    border-width: 4px;
+    border-color: #F7418F;
+    border-style: solid;
+    color: #F7418F  ;
+    transition: 0.5s ease;
+  }
+
+  .buybtn:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+  }
+  .buybtn2{
+    width: 25%;
+    height: 40px;
+    background-color: #FFF3C7;
+    border-radius: 35px;
+    border-width: 4px;
+    border-color: #F7418F;
+    border-style: solid;
+    color:inherit ;
+  }
+  .buybtn2:hover{
+    cursor: pointer;
+  }
+  .dropdown-container{
+    width: 30%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 65%;
+  }
+  #category-select{
+    width: 60%;
+    height: 40px;
+    border-color: #F7418F;
+    border-width: 3px;
+    border-radius: 25px;
+  }
+  #category-select:hover{
+    cursor: pointer;
+  }
+
+  @media (min-width: 1200px) {
+    .shop-container {
+      grid-template-columns: repeat(4, 4fr); 
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .shop-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .shop-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  .shop-container{
+    width: 100%;
+  }
+ 
+  

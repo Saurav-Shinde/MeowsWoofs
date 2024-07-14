@@ -1,0 +1,68 @@
+.hcontainer{
+    background-color: #FEC7B4;
+    height: 625px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.hero{
+    height:525px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    visibility: hidden;
+    animation: slideInFromRight 2s forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+      visibility: hidden;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+.hero img{
+    border-width: 5px;
+    border-style: solid;
+    border-radius:50%;
+    border-color: #F7418F;
+}
+.maintext{
+    color: #F7418F;
+    width: 40%;
+    height: 525px;
+    text-align: center;
+    visibility: hidden;
+    animation: textslide 2s forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes textslide {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+      visibility: hidden;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+.heading1{
+    font-size: 50px;    
+}
+
+.maintext > p{
+    font-size: 20px;
+}
+
+

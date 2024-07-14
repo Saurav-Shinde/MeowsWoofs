@@ -1,0 +1,100 @@
+body{
+    background-color: #FEC7B4;
+}
+.scontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('/dogs-images/signin.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 616px;
+    z-index: -1;
+    animation-name: signinanima;
+    animation-duration: 2s;
+}
+@keyframes signinanima{
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+h1{
+    color: #f7418f;
+    text-align: center;
+}
+.smain{
+    width: 50%;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    background: transparent;
+}
+
+.form{
+    color: #f7418f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formtext{
+    font-weight: bold;
+    font-size: 20px;
+    border: #FFF3C7;
+}
+#box{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f7418f;
+    background: transparent;
+    width: 80%;
+    height: 25px;
+    border-radius: 20px;
+}
+.loginbtn{
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #f7418f;
+    border-radius: 20px;
+    color: #f7418f;
+    font-weight: bold;
+    font-size: 20px;
+}
+.loginbtn:hover{
+    background-color:#FFF3C7 ;
+}
+.fpassword{
+    text-align: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registertext{
+    color: #F7418F;
+    font-weight: bold;
+}
+.registertext span{
+    color: #FF0080;
+    text-decoration:underline;
+}
+.registertext span:hover{
+    cursor: pointer;
+}
+.registertext a {
+    text-decoration: none;
+}
+.loginbtn a{
+    color: #f7418f;
+    text-decoration: none;
+}
