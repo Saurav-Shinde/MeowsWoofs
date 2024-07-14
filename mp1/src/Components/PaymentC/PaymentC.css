@@ -1,0 +1,81 @@
+.jcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99.2vh;
+}
+.jmain{
+    border-style: solid;
+    border-color: #f7418f;
+    border-radius: 35px;
+    width: 70%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.cardholder{
+    width: 80%;
+}
+.cardnumber,.cvv{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.date{
+    display: flex;
+    width: 67%;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardnumber input,.cvv input{
+    width: 50%;
+    height: 25px;
+    border-radius: 25px;
+    border-color: #f7418f;
+    border-style: solid;
+}
+.name input{
+    width: 30%;
+    height: 25px;
+    border-radius: 25px;
+    border-color: #f7418f;
+    border-style: solid;
+}
+.date input{
+    height: 25px;
+    border-radius: 25px;
+    border-color: #f7418f;
+    border-style: solid;
+}
+.paybuttons{
+    height: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.paybuttons button{
+    height: 35px;
+    width: 20%;
+    border-radius: 25px;
+    border-color: #f7418f;
+    border-style: solid;
+}
+.homebtn{
+    color: #f7418f;
+    text-decoration: none;
+}
+.upi{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 35px;
+}
+.upiimg{
+    width: 30%;
+}
