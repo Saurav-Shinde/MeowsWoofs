@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MeowsWoofs/static/css/main.0647e2eb.chunk.css",
+    "main.js": "/MeowsWoofs/static/js/main.a17186df.chunk.js",
+    "main.js.map": "/MeowsWoofs/static/js/main.a17186df.chunk.js.map",
+    "runtime-main.js": "/MeowsWoofs/static/js/runtime-main.766f1344.js",
+    "runtime-main.js.map": "/MeowsWoofs/static/js/runtime-main.766f1344.js.map",
+    "static/js/2.6edf4f87.chunk.js": "/MeowsWoofs/static/js/2.6edf4f87.chunk.js",
+    "static/js/2.6edf4f87.chunk.js.map": "/MeowsWoofs/static/js/2.6edf4f87.chunk.js.map",
+    "static/js/3.19599855.chunk.js": "/MeowsWoofs/static/js/3.19599855.chunk.js",
+    "static/js/3.19599855.chunk.js.map": "/MeowsWoofs/static/js/3.19599855.chunk.js.map",
+    "index.html": "/MeowsWoofs/index.html",
+    "precache-manifest.b05cff38ecb0911ceb0c17a035457bb2.js": "/MeowsWoofs/precache-manifest.b05cff38ecb0911ceb0c17a035457bb2.js",
+    "service-worker.js": "/MeowsWoofs/service-worker.js",
+    "static/css/main.0647e2eb.chunk.css.map": "/MeowsWoofs/static/css/main.0647e2eb.chunk.css.map",
+    "static/js/2.6edf4f87.chunk.js.LICENSE.txt": "/MeowsWoofs/static/js/2.6edf4f87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.766f1344.js",
+    "static/js/2.6edf4f87.chunk.js",
+    "static/css/main.0647e2eb.chunk.css",
+    "static/js/main.a17186df.chunk.js"
+  ]
+}
