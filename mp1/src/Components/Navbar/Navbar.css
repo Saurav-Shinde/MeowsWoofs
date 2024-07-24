@@ -26,12 +26,11 @@
   }
   .listitems{
     list-style-type: none;
-    color: #f7418f;
-    transition: 2s;
-    
+    color: #f7418f;    
   }
   .listitems:hover{
     cursor: pointer;
+    text-shadow: 0 0 5px #F7418F;
   } 
   .lists a{
     color: inherit;
@@ -56,20 +55,22 @@
     border-style: solid;
     color: #F7418F  ;
     transition: 0.5s ease;
-    animation:bounce infinite;
+    animation:bounce 6s;
+    animation-iteration-count: infinite;
   }
   @keyframes bounce {
-    0% { transform: translateY(0) rotate(0); }
-    20% { transform: translateY(-10px) rotate(0); }
-    40% { transform: translateY(0) rotate(0); }
-    60% { transform: translateY(-5px) rotate(0); }
-    80% { transform: translateY(0) rotate(0); }
-    100% { transform: translateY(-2px) rotate(0); }
+    0% { transform: translateY(0)  }
+    20% { transform: translateY(-10px)  }
+    40% { transform: translateY(0) }
+    60% { transform: translateY(-5px) }
+    80% { transform: translateY(0)  }
+    100% { transform: translateY(-2px) }
 }
-/* .shopbtn:hover{
+.shopbtn:hover{
     cursor: pointer;
-    transform: scale(0.8);
-  } */
+    box-shadow: 0 0 5px#F7418F;
+    text-shadow: 0 0 5px#F7418F;
+  }
 .heading{
     color:#F7418F;
   }

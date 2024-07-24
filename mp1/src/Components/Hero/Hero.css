@@ -8,14 +8,14 @@
     
 }
 .hero{
-    height:525px;
+    height:700px;
     display: flex;
     align-items: center;
     width: 40%;
     visibility: hidden;
     animation: slideInFromRight 2s forwards;
     animation-duration: 2s;
-    animation-delay: 2s;
+    animation-delay: 1s; 
 }
 @keyframes slideInFromRight {
     from {
@@ -34,6 +34,20 @@
     border-style: solid;
     border-radius:50%;
     border-color: #F7418F;
+    animation:bounce 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s linear;
+}
+@keyframes bounce {
+  0%{
+    transform: translateY(-5%);
+  }
+  50%{
+    transform: translateY(5%);
+  }
+  100%{
+    transform: translateY(-5%);
+  }
 }
 .maintext{
     color: #F7418F;
@@ -59,10 +73,37 @@
   }
 .heading1{
     font-size: 50px;    
+    animation: animate 2s forwards;
+    animation-delay: 4s;
+    visibility: hidden;
 }
+@keyframes animate {
+  from {
+    clip-path: inset(0 100% 0 0);
+    visibility: visible;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    visibility: visible;
+  }
+}
+
 
 .maintext > p{
     font-size: 20px;
+    animation: animate2 2s forwards;
+    visibility: hidden;
+    animation-delay: 5s;   
+}
+@keyframes animate2 {
+  from {
+    clip-path: inset(0 100% 0 0);
+    visibility: visible;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    visibility: visible;
+  }
 }
 
 
